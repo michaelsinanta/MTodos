@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { FormProvider, useForm } from "react-hook-form";
 import { useRouter } from "next/router";
 import {
@@ -60,7 +61,7 @@ export default function LoginPage() {
          : 
           <div className="flex justify-center flex-col items-center">
             <h1 className="text-xl font-bold">Ooops you're not login yet</h1>
-            <img
+            <Image
               className="lg:w-[60%] md:w-[80%] w-[80%]"
               src="https://i.pinimg.com/originals/31/36/cd/3136cd447c99783f59cd1a4c7d9ca9c1.png"
               alt="not logged in"
