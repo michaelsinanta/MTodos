@@ -1,0 +1,38 @@
+{
+  "name": "compfest-crud-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@headlessui/react": "^1.7.8",
+    "@next/font": "13.1.6",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "axios": "^1.2.5",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.6",
+    "firebase": "^9.16.0",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-hook-form": "^7.42.1",
+    "react-icons": "^4.7.1",
+    "react-toastify": "^9.1.1",
+    "recoil": "^0.7.6",
+    "recoil-persist": "^4.2.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}
